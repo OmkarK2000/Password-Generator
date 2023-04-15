@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, red, blue);
+    color: white;
+}
+
+.container {
+    border: 0.5px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 5px 5px 5px red;
+}
+
+.container h1 {
+    padding: 1rem 0;
+}
+
+.passBox {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 270px;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    margin: 10px 0;
+}
+.row p , .row label{
+    flex-basis: 100%;
+    font-size: 20px;
+}
+
+.row input[type="checkbox"]{
+    width: 20px;
+}
+
+.genBtn{
+    border: none;
+    color: white;
+    outline: none;
+    background-color: blue;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.genBtn:hover{
+    background-color: rgb(55, 79, 216);
+}
